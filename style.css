@@ -1,0 +1,57 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.main > h2{
+    margin-bottom: 1rem;
+}
+
+.main > label{
+    display: block;
+    margin: .5rem 0rem;
+    font-size: large;
+}
+
+.main > input{
+    font-size: large;
+}
+
+#submit{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: large;
+    padding: .5rem;
+    width: 7rem;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#submit:active{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.header{
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+.list-item{
+    display: inline-block;
+    margin: .5rem;
+}
